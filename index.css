@@ -77,3 +77,21 @@ nav{
     font-size:1.7rem;
     padding-top: 0.7rem;
 }
+/* Media screen for laptop  */
+@media (max-width:500px) {
+    nav{
+        padding:0 10px;
+    }
+    .navbar .logo{
+        font-size: 1.3rem;
+    }
+    #search-input, #search-button {
+        width:90px;
+        font-size:14px;
+        padding: 8px;
+    }
+
+    .blog-card{
+        width:100%;
+    }
+}
